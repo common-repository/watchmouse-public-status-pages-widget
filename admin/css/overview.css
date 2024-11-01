@@ -1,0 +1,70 @@
+/**
+ * @package			WatchMouse PSP Widgets
+ * @subpackage		PSP Widget - WordPress Plugin
+ * @link			http://www.watchmouse.com
+ * @copyright		Copyright (C) 2011 - 2012 WatchMouse b.v.. All rights reserved.
+*/
+
+.icon-48-wm-psp-widget { background-image: url(images/psp-widget-ico-48.png); }
+
+.clear-r { clear: right; }
+.margin-t { margin-top: 18px; }
+
+.wm-howto .left { float: left; }
+.wm-howto .right { float: right; }
+
+.wm-howto .update {
+	width: 270px;
+	padding: 25px;
+	margin-left: 30px;
+	text-align: center;
+	border: 1px solid #c6c6c6;
+}
+
+.wm-howto ul {
+	padding-left: 15px;
+	list-style: disc;
+}
+
+.wm-howto .step {
+	width: 100%;
+	min-width: 785px;
+	margin-bottom: 24px;
+	clear: left;
+}
+
+.wm-howto .image-wrap {
+	padding: 3px;
+	border: 1px solid #999;
+	margin-left: 20px;
+}
+
+.wm-howto .image-wrap img {
+	border: 1px solid #c6c6c6;
+}
+
+.wm-howto .image-wrap span {
+	display: block;
+	padding: 8px 10px 6px;
+	text-align: center;
+	color: #333;
+}
+
+.wm-howto dt {
+	margin-bottom: 8px;
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+.wm-howto dd {
+	margin: 0 0 16px 16px;
+}
+
+.wm-howto .tip {
+	border: 1px solid #c6c6c6;
+	margin:8px 0 0 0;
+	padding: 14px 16px;
+}
+
+.wm-howto .step .left { width: 500px; }
+/* .wm-howto .step-1 { width: 892px; margin-bottom: 20px; } */

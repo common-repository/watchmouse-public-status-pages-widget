@@ -1,0 +1,156 @@
+/**
+ * @package			WatchMouse PSP Widgets
+ * @subpackage		PSP Widget - WordPress Plugin
+ * @link			http://www.watchmouse.com
+ * @copyright		Copyright (C) 2011 - 2012 WatchMouse b.v.. All rights reserved.
+*/
+
+.clear {clear: both;}
+
+.watchmouse_folder_navigation {
+	float: left;
+	width: 100%;
+}
+
+.wm-widget-module {
+	float: left;
+	font: normal 12px/15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+	color: #333;
+	min-height: 32px;
+}
+
+.wm-widget-module, .wm-widget-module .monitors-list, .wm-widget-module .monitors-list li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.wm-widget-module ul li a, .wm-widget-module ul li a:link, .wm-widget-module ul li a:hover, .wm-widget-module ul li a:active, .wm-widget-module ul li a:visited { 
+	color: #333;
+	text-shadow: 1px 0 0 #fff;
+	text-decoration: underline;
+	border: 0;
+	font-weight: 400;
+}
+
+.wm-widget-module ul li a:hover {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.wm-widget-module ul li a.toogle-info-charts, .wm-widget-module h4 {
+	background: transparent url(../images/module-sprite.png) no-repeat 5px 30px;
+}
+
+.wm-widget-module .monitors-list, .wm-widget-module .monitors-list li {
+	border-top: 1px solid #f6f6f6;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+.wm-widget-module .monitors-list {
+	float: left;
+	clear: left;
+	width: 100%;
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0 !important;
+}
+
+.wm-widget-module .monitors-list li {
+	padding: 4px 0;
+	position: relative;
+	overflow: hidden;
+}
+.wm-widget-module .monitors-list li.odd {
+	background-color: #f6f6f6;
+	background-color: rgba(0,0,0,.1);
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+
+.wm-widget-module h4 {margin: 0;}
+.wm-widget-module h4.status-0 { background-position: 5px 1px; }
+.wm-widget-module h4.status-1 { background-position: 5px -69px; }
+.wm-widget-module h4.status-2 { background-position: 5px -139px; }
+.wm-widget-module h4.status-3 { background-position: 5px -209px; }
+
+.wm-widget-module li h4 a { 
+	display: block;
+	padding: 0 28px 0 21px;
+}
+
+.wm-widget-module ul li a.toogle-info-charts {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 23px;
+	width: 23px;
+	padding: 0;
+	background-color: #d8d8d8;
+	background-position: 6px -295px;
+}
+
+.wm-widget-module ul li a.toogle-info-charts:hover {
+	background-color: #c4c4c4;
+	background-position: 6px -272px;
+}
+
+.wm-widget-module .info-charts, .wm-widget-module .info-charts div {
+	text-align: center !important;
+}
+
+.wm-widget-module .info-charts table {
+	margin: 0 auto !important;
+}
+
+.wm-widget-module .info-charts p {
+	margin: 6px auto;
+	color: #666;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.wm-widget-module .loading {
+	position: relative;
+	left: 50%;
+	top: 8px;
+	margin-left: -8px;
+}
+
+.wm-widget-module .error {
+	background-color: #f6f6f6;
+	background-color: rgba(0,0,0,.1);
+	border: 1px solid #555;
+	color: #444;
+	text-shadow: 0 1px 0 #fff;
+	padding: 10px;
+}
+/* for dark background */
+.wm-widget-module.mod-dark .monitors-list, .wm-widget-module.mod-dark .monitors-list li {
+	border-top-color: #2d2d2d;
+	border-bottom-color: #2d2d2d;
+}
+
+.wm-widget-module.mod-dark .monitors-list li.odd {
+	border-top-color: #444;
+	border-bottom-color: #444;
+}
+
+.wm-widget-module.mod-dark, .wm-widget-module.mod-dark ul li .info-charts p, .wm-widget-module.mod-dark  ul lia, .wm-widget-module.mod-dark ul li a:link, .wm-widget-module.mod-dark ul li a:hover, .wm-widget-module.mod-dark ul li a:active, .wm-widget-module.mod-dark ul li a:visited{
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+}
+
+.wm-widget-module.mod-dark ul li a.toogle-info-charts {
+	background-color: #262626;
+	background-position: 6px -272px;
+}
+
+.wm-widget-module.mod-dark ul li a.toogle-info-charts:hover {
+	background-color: #111;
+}
+
+.wm-widget-module.mod-dark .info-charts p {
+	color: #eff;
+}
